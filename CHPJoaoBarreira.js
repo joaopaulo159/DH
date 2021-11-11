@@ -42,3 +42,12 @@ console.log(Microondas("Carne", 10));
 console.log(Microondas("Feijão", 10));
 
 console.log(Microondas("Brigadeiro", 10));
+
+
+// Minha ideia foi criar uma função tempo que realizará a tarefa de preparo do alimento.
+
+// Inicialmente havia colocado padrão como um parametro na função,porém ao perceber que não seria prático,visto que usuário iria ter que saber qual tempo faria a comida queimar.
+
+// Então adicionei padrão como uma variável constante em cada situação.
+
+// a função microondas recebe a comida desejada,atribui uma constante tempo padrão do alimento e chama a função time.
