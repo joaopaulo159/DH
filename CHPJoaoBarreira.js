@@ -31,6 +31,9 @@ function Microondas(comida, tempo){
     else if(comida == "Feijão"){
       const padrao = 12
         return time(tempo,padrao);
+    }
+    else {
+return "Opção inexistente,tente outra !!!"  
     }  
     }
 console.log(Microondas("Pipoca", 10));
@@ -42,6 +45,8 @@ console.log(Microondas("Carne", 10));
 console.log(Microondas("Feijão", 10));
 
 console.log(Microondas("Brigadeiro", 10));
+
+console.log(Microondas("Frango", 10));
 
 
 // Minha ideia foi criar uma função tempo que realizará a tarefa de preparo do alimento.
